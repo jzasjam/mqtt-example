@@ -61,6 +61,7 @@ if __name__ == '__main__':
 
     # Get Topic to which the publisher client will publish messages
     topic = "python/mqtt/jzj"
+    topic = input("[?] ENTER TOPIC TO PUBLISH MESSAGES (default: " + topic + "): ") or topic
 
     # Try to connect to the MQTT broker and start the publisher client
     pc = Publisher_Client(device, topic)

@@ -57,9 +57,9 @@ if __name__ == '__main__':
     #name = input("[>] Please enter the name of a subscriber client: ")
     name = "subscriber_client1"
 
-    # Get Topic to which the subscriber client will subscribe
-    #topic = input("Enter the topic/s to which to subscribe: ")       
+    # Get Topic to which the subscriber client will subscribe   
     topic = "python/mqtt/jzj"
+    topic = input("[?] ENTER TOPIC TO SUBSCRIBE (default: " + topic + "): ") or topic
 
     # Try to connect to the MQTT broker and start the subscriber client
     print("[i] CONNECTING TO MQTT BROKER: " + Subscriber_Client.mqtt_broker + ":" + str(Subscriber_Client.mqtt_broker_port))
