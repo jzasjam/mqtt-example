@@ -29,4 +29,9 @@ This is the MQTT subscriber script which connects to the broker and allows you t
 
 Open another new terminal in the project directory and run
 > **`python subscriber_client.py`**
+
 -------------------------------
+## Example
+
+<img width="1848" height="576" alt="image" src="https://github.com/user-attachments/assets/1afa6e10-3dfc-4c2c-b137-54e522e027b3" />
+
