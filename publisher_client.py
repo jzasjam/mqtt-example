@@ -32,7 +32,6 @@ class Publisher_Client:
         print("[i] CONNECTING TO MQTT BROKER: " + self.mqtt_broker + ":" + str(self.mqtt_broker_port))
         print("[~] CONNECTING: ..", end=".", flush=True)
         self.mqtt_client.connect(self.mqtt_broker, self.mqtt_broker_port) # Connect to the MQTT broker (will call on_connect when done)
-        
         self.mqtt_client.loop_start()  # Start networking loop in background
 
     # This method publishes a message to the specified topic

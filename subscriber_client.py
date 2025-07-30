@@ -23,7 +23,6 @@ class Subscriber_Client:
 
     # The callback function for when the client receives the CONNACK response from the server
     def on_connect(self, client, userdata, flags, rc, properties=None):
-        
         # Print the connection result code
         print("[i] CONNECTED AT " + self.mydatetime() + ": Result Code [" + str(rc) + "]")
         # Subscribe to the topic of interest
