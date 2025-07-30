@@ -38,3 +38,5 @@ Open another new terminal in the project directory and run
 ## Test
 
 Test using the same broker (default is broker.hivemq.com:1883) and same topic at [testclient-cloud.mqtt.cool](https://testclient-cloud.mqtt.cool)
+
+<img width="1251" height="740" alt="image" src="https://github.com/user-attachments/assets/725cae2c-91f4-4962-b42a-9427a59b755c" />
