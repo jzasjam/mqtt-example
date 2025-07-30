@@ -32,12 +32,12 @@ class Subscriber_Client:
         # Print confirmation of subscription
         print("[i] SUBSCRIPTION COMPLETED AT " + self.mydatetime() + "")
         print("[i] Press Ctrl+C to stop the subscriber client.")
-        print("\n[!] Waiting for messages...")
+        print("\n[!] WAITING FOR MESSAGES...")
 
     # Called when message sent from MQTT broker to subscriber
     def on_message(self, client, userdata, msg):
         # Print the message received from the broker
-        print("\n[+] Message Received at " + self.mydatetime() + "")
+        print("\n[+] MESSAGE RECEIVED AT " + self.mydatetime() + "")
         print("[>] " + str(msg.payload.decode("utf-8")))
 
     # This method is called to stop the subscriber client
